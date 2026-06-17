@@ -47,11 +47,11 @@ export function Hero() {
           </div>
 
           <p className="text-sm sm:text-base md:text-lg text-foreground/70 leading-relaxed max-w-2xl mx-auto font-light px-2">
-            I create beautiful, responsive web experiences with React, TypeScript, and modern technologies. Focused on clean code, user-centered design, and building products that matter.
+            I craft beautiful, accessible, and high-performance web experiences using React, TypeScript, and modern tooling. With 4 years 9 months of professional experience, I turn product goals into polished, production-ready interfaces focused on usability, scalability, and delightful interactions.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center pt-1 md:pt-2">
-            <button className="group relative px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-primary to-secondary text-background font-semibold text-sm sm:text-base rounded-xl transition-all duration-500 hover:shadow-2xl hover:shadow-primary/50 hover:-translate-y-2 overflow-hidden">
+            <a href="#projects" className="group relative inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-primary to-secondary text-background font-semibold text-sm sm:text-base rounded-xl transition-all duration-500 hover:shadow-2xl hover:shadow-primary/50 hover:-translate-y-2 overflow-hidden">
               <span className="relative z-10 flex items-center justify-center gap-2">
                 View My Work
                 <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -59,10 +59,7 @@ export function Hero() {
                 </svg>
               </span>
               <div className="absolute inset-0 bg-white/0 group-hover:bg-white/10 transition-colors duration-300" />
-            </button>
-            <button className="px-6 sm:px-8 py-3 sm:py-4 border-2 border-primary/50 text-primary font-semibold text-sm sm:text-base rounded-xl hover:border-primary hover:bg-primary/10 transition-all duration-500 hover:-translate-y-2">
-              Get in Touch
-            </button>
+            </a>
           </div>
         </div>
 

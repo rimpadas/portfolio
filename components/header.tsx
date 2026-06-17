@@ -5,7 +5,7 @@ import { useState } from 'react'
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
-  const navItems = ['About', 'Skills', 'Projects', 'Experience', 'Contact']
+  const navItems = ['About', 'Skills', 'Projects', 'Experience']
 
   return (
     <header className="sticky top-0 z-50 bg-gradient-to-r from-background via-background/95 to-background backdrop-blur-md overflow-hidden">

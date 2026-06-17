@@ -71,6 +71,34 @@ export function About() {
               </div>
             </div>
           </div>
+
+          <div className="group relative bg-gradient-to-br from-card/90 via-card/60 to-background/40 border border-accent/25 rounded-2xl p-7 hover:border-accent/60 transition-all duration-500 hover:shadow-2xl hover:shadow-accent/20 hover:-translate-y-2 cursor-default animate-slideUp overflow-hidden" style={{ animationDelay: '0.3s' }}>
+            <div className="absolute -top-20 -right-20 w-40 h-40 bg-accent/15 rounded-full mix-blend-screen blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+            <div className="absolute inset-0 bg-gradient-to-br from-accent/0 via-accent/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
+            <div className="relative z-10 space-y-4">
+              <div className="p-3 w-fit bg-accent/15 rounded-lg group-hover:bg-accent/25 transition-all duration-300">
+                <span className="text-3xl block">🧪</span>
+              </div>
+              <div>
+                <h3 className="font-bold text-lg text-foreground mb-2 group-hover:text-accent transition-colors">Testing & CI</h3>
+                <p className="text-foreground/70 text-sm leading-relaxed font-light">Unit/integration testing, automated pipelines, and reliable deployments.</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="group relative bg-gradient-to-br from-card/90 via-card/60 to-background/40 border border-primary/25 rounded-2xl p-7 hover:border-primary/60 transition-all duration-500 hover:shadow-2xl hover:shadow-primary/20 hover:-translate-y-2 cursor-default animate-slideUp overflow-hidden" style={{ animationDelay: '0.35s' }}>
+            <div className="absolute -top-20 -right-20 w-40 h-40 bg-primary/15 rounded-full mix-blend-screen blur-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+            <div className="absolute inset-0 bg-gradient-to-br from-primary/0 via-primary/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none" />
+            <div className="relative z-10 space-y-4">
+              <div className="p-3 w-fit bg-primary/15 rounded-lg group-hover:bg-primary/25 transition-all duration-300">
+                <span className="text-3xl block">🤝</span>
+              </div>
+              <div>
+                <h3 className="font-bold text-lg text-foreground mb-2 group-hover:text-primary transition-colors">Collaboration</h3>
+                <p className="text-foreground/70 text-sm leading-relaxed font-light">Product-minded development, stakeholder communication, and agile processes.</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

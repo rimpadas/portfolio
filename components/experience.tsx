@@ -5,14 +5,14 @@ export function Experience() {
     {
       role: 'Web Developer',
       company: 'Itobuz Technologies',
-      period: '2021 - Present',
+      period: '2021 - 2026',
       description: 'Building modern web applications with React.js and Next.js'
     }
   ]
 
   const stats = [
     { label: '4+ Years', value: 'Professional Experience' },
-    { label: '20+ Projects', value: 'Delivered' },
+    { label: '10+ Projects', value: 'Delivered' },
     { label: '100% Focused', value: 'On Quality' }
   ]
 

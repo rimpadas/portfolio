@@ -2,47 +2,55 @@
 
 export function Projects() {
   const projects = [
+      {
+      title: 'Mareana',
+      description: 'Mareana main site and demo request pages',
+      tech: 'WordPress',
+      icon: '🛍️',
+      link: 'https://mareana.com/'
+    },
+     {
+      title: 'RCMB',
+      description: 'RCMB institutional site',
+      tech: 'WordPress',
+      icon: '🏛️',
+      link: 'https://rcmb.in/'
+    },
+     {
+      title: 'Nirva Old-age Home',
+      description: 'Senior care platform with resident profiles and contact features',
+      tech: 'Next.js',
+      icon: '👵',
+      link: 'https://nirva-oldage-home.vercel.app'
+    },
     {
       title: 'Pharmastock',
       description: 'Pharmaceutical inventory & stock management dashboard',
       tech: 'React.js',
       icon: '💊',
-      link: 'https://pharmastock.x-studio.io/dashboard/profile'
+      link: ''
     },
-    {
-      title: 'Nirva Old-age Home',
-      description: 'Senior care platform with resident profiles and contact features',
-      tech: 'Next.js',
-      icon: '👵',
-      link: 'https://nirva-oldage-home.vercel.app/contactUs'
-    },
+   
     {
       title: 'Health Admin',
       description: 'Healthcare admin dashboard for appointments and records',
       tech: 'React.js',
       icon: '🏥',
-      link: 'https://lms-mentor.x-studio.io/login'
+      link: ''
     },
     {
       title: 'Hotel Management',
       description: 'Hotel management solution with booking and guest management',
       tech: 'React.js',
       icon: '🏨',
-      link: 'https://hotel-management.x-studio.io/'
-    },
-    {
-      title: 'QA Playbook (Mareana)',
-      description: 'QA playbook and interactive quiz experience',
-      tech: 'WordPress',
-      icon: '❓',
-      link: 'https://mareana.wordpress-studio.io/qa-playbook/'
+      link: ''
     },
     {
       title: 'Trouvaille',
       description: 'Travel profile and destination showcase',
       tech: 'WordPress',
       icon: '✈️',
-      link: 'https://trouvaille-frontend.wordpress-studio.io/profile'
+      link: ''
     },
     {
       title: 'Design Studio',
@@ -50,13 +58,6 @@ export function Projects() {
       tech: 'HTML/CSS',
       icon: '🎨',
       link: 'https://www.designstudiouiux.com/'
-    },
-    {
-      title: 'Mareana',
-      description: 'Mareana main site and demo request pages',
-      tech: 'WordPress',
-      icon: '🛍️',
-      link: 'https://mareana.com/'
     },
     {
       title: 'TipTop Dorm Shop',
@@ -79,13 +80,7 @@ export function Projects() {
       icon: '🧠',
       link: 'https://www.softwarevalue.ai/'
     },
-    {
-      title: 'RCMB',
-      description: 'RCMB institutional site',
-      tech: 'WordPress',
-      icon: '🏛️',
-      link: 'https://rcmb.in/'
-    },
+   
     {
       title: 'Leap Green Energy',
       description: 'Renewable energy solutions website',
@@ -162,7 +157,7 @@ export function Projects() {
         <div className="mt-16 p-8 rounded-2xl bg-gradient-to-r from-primary/10 via-secondary/10 to-accent/10 border border-primary/20 animate-slideUp" style={{ animationDelay: '0.4s' }}>
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div>
-              <div className="text-4xl font-bold gradient-text mb-2">8+</div>
+              <div className="text-4xl font-bold gradient-text mb-2">10+</div>
               <p className="text-foreground/60">Projects Built</p>
             </div>
             <div>

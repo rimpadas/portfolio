@@ -47,7 +47,7 @@ export function Footer() {
           </div>
           
           <div className="animate-slideUp" style={{ animationDelay: '0.15s' }}>
-            <h4 className="font-semibold text-foreground mb-4">Current Role</h4>
+            <h4 className="font-semibold text-foreground mb-4">Role</h4>
             <div className="space-y-2 text-sm">
               <p className="text-foreground/70">
                 <strong className="text-primary">Web Developer</strong>
@@ -56,7 +56,7 @@ export function Footer() {
                 Itobuz Technologies
               </p>
               <p className="text-foreground/60 text-xs">
-                Sept 2021 - Present
+                Sept 2021 - June 2026
               </p>
             </div>
           </div>
